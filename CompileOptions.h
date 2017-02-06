@@ -483,7 +483,7 @@
 	#elif TARGET == POSTAL_2015
 		#define MULTIPLAYER_REMOVED
 		#define EDITOR_REMOVED
-		#define LOADLEVEL_REMOVED
+		//#define LOADLEVEL_REMOVED
 		#define START_MENU_ADDON_ITEM
 	#endif
 #endif
@@ -493,7 +493,7 @@
 #if 1 //PLATFORM_UNIX
     #define MULTIPLAYER_REMOVED
 	#define EDITOR_REMOVED
-    #define LOADLEVEL_REMOVED  // bleh, no file dialog thingey.  :/
+    //#define LOADLEVEL_REMOVED  // bleh, no file dialog thingey.  :/
 #endif
 
 
@@ -610,12 +610,12 @@
 	#define SPECIFIC_MP_REALM_NUM				10
 #endif
 
-
 ////////////////////////////////////////////////////////////////////////////////
 // Miscellaneous Stuff
 ////////////////////////////////////////////////////////////////////////////////
 
 #define ALLOW_JOYSTICK
+// #define DEBUG_LEVEL_CHEAT
 
 #endif // COMPILE_OPTIONS_H
 ////////////////////////////////////////////////////////////////////////////////
