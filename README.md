@@ -4,7 +4,9 @@ The full source code for the POSTAL 1 game, as provided by Running With Scissors
 See the following files for more information regarding this source code release.
 
 Postal Overview.txt
+
 Postal Plus.txt
+
 Postal Plus Demo.txt
 
 This code will be updated occasionally from the original source of the BitBucket repository.
